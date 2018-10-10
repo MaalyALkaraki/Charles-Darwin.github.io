@@ -1,0 +1,131 @@
+html,body{
+  font-family:sans-serif;
+  text-align:center;
+  min-width:300px;
+  background:#F3E2A9;
+  background-image: url("https://www.svensktidskrift.se/wp-content/uploads/evolution-och-kreationism.jpg");
+  
+}
+#main{
+  margin:20px 50px ;
+  padding:5px 10px 5px 10px;
+  border:2px solid black;
+  border-radius:5px;
+  background:#F3E2A9;
+  line-height:1.8;
+  font-size:2rem;
+  
+}
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: 10,auto;
+}
+#img-div{
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+  border:2px solid black ;
+  background:white;
+  color:black;
+}
+#img-caption{
+  margin:15px;
+}
+.img-caption2{
+  margin:15px;
+}
+
+
+/* nav */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+}
+li a {
+    display: block;
+    width: 70%;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* nav end styling */
+.photo {
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+  border:2px solid #F3E2A9;
+  background:white;
+  color:black;
+  font-size:1.7rem;
+  text-align: center;
+}
+#headline{
+  margin-top:50px;
+  text-align:left;
+  
+}
+ .quotation {
+   color:blue;
+   font-size:2.2rem;
+   font-style: italic;
+   }
+ h2,h3 { 
+   color:blue; 
+   text-decoration: underline;
+}
+ul {
+  max-width:90%;
+  margin:0 auto;
+  text-align:left;
+  font-size: 1.9rem;
+ 
+}
+li{ 
+  margin:10px;
+  font-size:3rem;
+  font-style:italic;
+   text-align:left;
+  font-type:bold
+}
+ol.li {  font-size:2.5rem; }
+ 
+/* footer*/
+footer {
+  padding: .8rem 0;
+  border-top: 10% solid ;
+  font-family:'Roboto',sans- serif;
+  font-size: 2.9rem;
+  color:blue;
+  text-align: center;
+  background:#F3E2A9;
+  margin:auto 10%
+}
+/* footer end styling*/
+
+/* @media*/
+@media only screen and (max-width: 480px), (orientation: portrait) {
+  #title {
+    width: 270px;
+  }}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #main{ 
+    font-size: 2rem;
+    line-height:2;
+    letter-spacing:5px;
+   
+  }
+ 
+}
