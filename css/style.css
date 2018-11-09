@@ -6,6 +6,17 @@ html,body{
   background-image: url("https://www.svensktidskrift.se/wp-content/uploads/evolution-och-kreationism.jpg");
   
 }
+.navigation{
+	padding:0px;
+	text-align:center;
+}
+
+.navigation ul li{
+	border-right:1px solid #CCCCCC;
+	position:relative;
+	display:inline;		
+
+}
 #main{
   margin:20px 50px ;
   padding:5px 10px 5px 10px;
